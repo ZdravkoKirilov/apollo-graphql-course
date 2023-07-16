@@ -1,5 +1,7 @@
 import { RESTDataSource } from "@apollo/datasource-rest";
 
+import { TrackModel } from "../models";
+
 export class TrackAPI extends RESTDataSource {
   // the Catstronauts catalog is hosted on this server
   baseURL = "https://odyssey-lift-off-rest-api.herokuapp.com/";
@@ -22,5 +24,9 @@ export class TrackAPI extends RESTDataSource {
 
   getModule(moduleId: string) {
     return this.get(`module/${moduleId}`);
+  }
+
+  incrementTrackViews(trackId: string) {
+    return this.patch<TrackModel>(`track/${trackId}/numberOfViews`);
   }
 }
