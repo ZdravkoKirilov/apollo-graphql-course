@@ -1,4 +1,4 @@
-# apollo-graphql-course
+# Apollo Graph Associate certification course
 
 Each subfolder contains an incremental step into building an example Apollo GraphQL application following
 Apollo's [Associate certification program](https://www.apollographql.com/tutorials/certifications/apollo-graph-associate).
