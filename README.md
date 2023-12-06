@@ -10,4 +10,4 @@ Apollo's [Associate certification program](https://www.apollographql.com/tutoria
 - Queries vs Mutations
 - Resolvers and Data sources
 
-
+## [Certificate](https://www.apollographql.com/tutorials/certifications/c47fce80-ac24-40ac-bcdd-616576684567)
